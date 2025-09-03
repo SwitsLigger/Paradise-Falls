@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --theme: #fff;
+    --dark-theme: #f6f6f6;
+    --dark-theme-3: #eeeeee;
+    --dark-theme-2: rgba(255, 255, 255, 0.1);
+    --bg-anim-from: rgba(255, 255, 255, 0.1);
+    --bg-anim-to: rgba(255, 255, 255, 0.3);
+    --theme-bg: rgba(34, 34, 34, 1);
+    --theme-bg-2: rgb(18, 18, 18);
+    --bg-light: rgb(26, 26, 26);
+    --bg-light-2: rgb(66, 66, 66);
+    --bg-light-3: rgb(171, 171, 171);
+    --theme-bg-opacity: rgba(8, 8, 8, 0.9);
+    --theme-bg-opacity-2: rgba(8, 8, 8, 0.5);
+    --theme-color: #fff;
+    --main-color: #00b2ff;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slider::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slider::-webkit-slider-track {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    height: 8px;
+}
+
+.slider::-moz-range-track {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    height: 8px;
+    border: none;
+}
+
+.bg-radial-gradient {
+    background: radial-gradient(
+        ellipse at center,
+        rgba(59, 130, 246, 0.1) 0%,
+        rgba(0, 0, 0, 0.8) 70%
+    );
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+input:focus,
+button:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+[data-draggable="true"] {
+    outline: none !important;
+}
+
+[data-draggable="true"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+head,
+body,
+html,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+/* To fix fivem black screen issue */
+.backdrop-opacity-disabled {
+    backdrop-filter: none !important;
+}
+
+:root {
+    font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: transparent !important;
+    color-scheme: none !important;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("./fonts/Pacifico/Pacifico-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}

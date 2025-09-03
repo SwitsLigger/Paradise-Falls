@@ -1,0 +1,234 @@
+.subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--main-color);
+    text-shadow: 0px 0px 30.2479px var(--main-color);
+}
+
+.white-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 100%;
+    color: #ffffff;
+    text-shadow: 0px 0px 30.2479px rgba(194, 193, 196, 0.81);
+}
+
+.title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--main-color);
+    text-shadow: 0px 0px 30.2479px var(--main-color);
+}
+
+.green-subtitle {
+    font-weight: 700;
+    font-size: 17px;
+    color: #5cf068;
+    text-shadow: 0px 0px 30.2479px rgba(92, 240, 124, 0.81);
+}
+
+.red-subtitle {
+    font-weight: 700;
+    font-size: 17px;
+    color: #f05c5c;
+    text-shadow: 0px 0px 30.2479px rgba(240, 92, 92, 0.81);
+}
+
+.white-subtitle {
+    font-weight: 700;
+    font-size: 17px;
+    color: #ffffff;
+    text-shadow: 0px 0px 30.2479px rgba(194, 193, 196, 0.81);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.container-color {
+    border-width: 0.1vh;
+    border-style: solid;
+    border-color: rgba(14, 21, 27, 0.2);
+    border-image-source: linear-gradient(
+        rgb(14, 21, 27) 0%,
+        rgb(45, 45, 45) 100%
+    );
+    background: radial-gradient(
+                49.48% 49.48% at 50.52% 50.52%,
+                rgb(40, 52, 60) 0%,
+                rgb(14, 21, 27) 100%
+            )
+            padding-box padding-box,
+        linear-gradient(rgb(14, 21, 27) 30%, rgba(0, 163, 255, 0.6) 70%)
+            border-box border-box;
+    border-radius: 5px;
+}
+
+.bg-primary {
+    color: #88e7ff !important;
+    text-shadow: 0px 0px 33.4552px rgba(0, 163, 255, 0.6);
+    background: radial-gradient(
+                49.48% 49.48% at 50.52% 50.52%,
+                rgb(40, 52, 60) 0%,
+                rgb(14, 21, 27) 100%
+            )
+            padding-box padding-box,
+        linear-gradient(rgb(19, 111, 192) 30%, rgba(0, 163, 255, 0.6) 70%)
+            border-box border-box;
+    box-shadow: 0px 0px 5.5px 0.1px rgba(31, 125, 212, 0.5);
+}
+
+.bg-primary:hover {
+    background: radial-gradient(
+                49.48% 49.48% at 50.52% 50.52%,
+                rgb(40, 52, 60) 0%,
+                rgb(14, 21, 27) 100%
+            )
+            padding-box padding-box,
+        linear-gradient(rgb(19, 111, 192) 30%, rgba(0, 163, 255, 0.6) 70%)
+            border-box border-box;
+}
+
+.bg-secondary {
+    color: #ffffff !important;
+    text-shadow: 0px 0px 33.4552px rgba(51, 255, 85, 0.35);
+    background: radial-gradient(
+            63.21% 63.21% at 50.25% 49.06%,
+            rgba(87, 54, 139, 0.68) 0%,
+            rgba(142, 104, 231, 0) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(98, 0, 255, 0.6) 0%,
+            rgba(55, 38, 86, 0.46) 100%
+        );
+    border-radius: 4px;
+    box-shadow: inset -1px -1px rgba(109, 31, 212, 0.5);
+}
+
+.bg-success {
+    color: #88ffb6 !important;
+    text-shadow: 0px 0px 33.4552px rgba(255, 201, 97, 0.35);
+    background: radial-gradient(
+            63.21% 63.21% at 50.25% 49.06%,
+            rgba(54, 139, 87, 0.801) 0%,
+            rgba(104, 231, 142, 0.267) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(0, 255, 98, 0.726) 0%,
+            rgba(38, 86, 55, 0.46) 100%
+        );
+    border-radius: 4px;
+    box-shadow: inset -1px -1px rgba(31, 212, 109, 0.815);
+}
+
+.bg-danger {
+    color: #ff88d1 !important;
+    text-shadow: 0px 0px 33.4552px rgba(255, 97, 194, 0.671);
+    background: radial-gradient(
+            63.21% 63.21% at 50.25% 49.06%,
+            rgba(139, 54, 89, 0.801) 0%,
+            rgba(231, 104, 157, 0.267) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(255, 0, 128, 0.726) 0%,
+            rgba(86, 38, 60, 0.46) 100%
+        );
+    box-shadow: 0px 0px 5.5px 0.1px rgba(212, 31, 106, 0.5);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #60a5fa 0%, transparent 100%);
+    border-radius: 9999px;
+    min-height: 32px;
+    margin: 2px 0;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #44a2ef 0%, transparent 100%);
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* Scroll margin */
+div[data-testid="virtuoso-item-list"] {
+    padding-right: 4px;
+}
+
+.bg-radial-gradient {
+    background: radial-gradient(
+        70.97% 70.97% at 50.52% 50.52%,
+        #28343c 0%,
+        #0e151b 100%
+    );
+}
+
+.quasar-title {
+    font-family: Pacifico;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.button-info-configurator {
+    position: absolute;
+    top: 88.7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-line {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 5s linear forwards, filling 5s ease-in forwards;
+    font-size: 10em;
+}
+
+.text-line text {
+    font-family: Pacifico;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.quasar-title svg {
+    height: 23vh;
+    width: 35vw;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes filling {
+    0%,
+    90% {
+        fill: #fff;
+        fill-opacity: 0;
+    }
+    100% {
+        fill: #fff;
+        fill-opacity: 1;
+    }
+}

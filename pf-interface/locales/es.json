@@ -1,0 +1,210 @@
+{
+    "seatbelt": {
+        "title": "Cinturón de Seguridad",
+        "on": "Cinturón puesto",
+        "off": "Cinturón quitado"
+    },
+    "welcome": {
+        "welcome_text": "Bienvenido",
+        "server_name": "Paradise Falls Roleplay",
+        "ready_to_configure": "¿Estás listo para configurar la interfaz?",
+        "loading_editor": "Cargando editor",
+        "loading_preview": "Cargando Vista Previa",
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "go_to_preview": "Ir a Vista Previa",
+        "preview": {
+            "title": "Vista Previa",
+            "return_esc": "ESC para volver",
+            "enter_to_finish": "Enter para finalizar",
+            "dragging_mode": "Modo de arrastre activo",
+            "modal": {
+                "title": "¿Quieres finalizar el proceso de configuración?",
+                "description": "No podrás volver al proceso de configuración después de finalizarlo.",
+                "yes": "Sí",
+                "no": "No"
+            }
+        },
+        "game": {
+            "logo": {
+                "title": "Paradise Falls Roleplay",
+                "description": "El juego se está cargando..."
+            }
+        },
+        "steps": {
+            "color": "Configuración de Colores",
+            "interface": "Configuración de Interfaz",
+            "notification": "Configuración de Notificaciones",
+            "progress": "Barra de Progreso",
+            "display": "Indicadores de Información",
+            "carhud": "Configuración del Velocímetro"
+        },
+        "interface": {
+            "title": "Interfaz de Usuario",
+            "description": "Personaliza tu interfaz de estadísticas del jugador para una mejor experiencia, como la barra de salud.",
+            "hud_type": "Tipo de HUD"
+        },
+        "notification": {
+            "title": "Sistema de Notificaciones",
+            "description": "Personaliza tus notificaciones modificando su estilo y ajustando su alineación según tus preferencias.",
+            "notification_style": "Estilo de Notificación",
+            "default": {
+                "header": "Información",
+                "text": "Este es un mensaje informativo."
+            }
+        },
+        "color": {
+            "title": "Selección de Color",
+            "description": "Elige tu color preferido"
+        },
+        "display": {
+            "title": "Indicadores de Información",
+            "description": "Personaliza tus indicadores, como el trabajo del jugador, ID asignado y otros detalles relevantes.",
+            "select_displayer_type": "Seleccionar tipo de indicador",
+            "displayer_type": "Tipo de Indicador"
+        },
+        "progress": {
+            "title": "Sistema de Barra de Progreso",
+            "description": "Personaliza tus barras de progreso modificando su estilo y ajustando sus opciones de visualización según tus preferencias.",
+            "progress_style": "Estilo de Progreso",
+            "default": {
+                "text": "Cargando...",
+                "value": 75,
+                "maxValue": 100
+            }
+        },
+        "carhud": {
+            "title": "Configuración del Velocímetro",
+            "description": "Personaliza tu interfaz de vehículo ajustando su diseño, estilo e información mostrada según tus preferencias.",
+            "speedometer_style": "Estilo del Velocímetro"
+        }
+    },
+    "hud": {
+        "types": {
+            "basic": "Básico",
+            "basic_description": "Diseño básico clásico",
+            "hexagon": "Hexágono",
+            "hexagon_description": "HUD con forma de hexágono",
+            "modern": "Moderno",
+            "modern_description": "Diseño moderno",
+            "diamond": "Diamante",
+            "diamond_description": "HUD con forma de diamante",
+            "skew": "Inclinado",
+            "skew_description": "Diseño inclinado",
+            "circle": "Círculo",
+            "circle_description": "HUD circular",
+            "icon_percent": "Icono + Porcentaje",
+            "icon_percent_description": "Visualización de icono y porcentaje"
+        },
+        "alignments": {
+            "row": "Fila",
+            "column": "Columna"
+        }
+    },
+    "display": {
+        "id": "ID",
+        "online": "EN LÍNEA",
+        "types": {
+            "basic": "Básico",
+            "basic_description": "Diseño básico clásico",
+            "modern": "Moderno",
+            "modern_description": "Diseño moderno",
+            "skew": "Inclinado",
+            "skew_description": "Diseño inclinado",
+            "modern2": "Moderno 2",
+            "modern2_description": "Diseño moderno avanzado",
+            "modernskew": "Inclinado Moderno",
+            "modernskew_description": "Diseño inclinado moderno"
+        }
+    },
+    "carhud": {
+        "types": {
+            "basic": "Básico",
+            "basic_description": "Diseño digital clásico",
+            "modern": "Moderno",
+            "modern_description": "Diseño moderno",
+            "advanced": "Avanzado",
+            "advanced_description": "Medidor detallado"
+        }
+    },
+    "notify": {
+        "types": {
+            "basic": "Básico",
+            "basic_description": "Diseño simple y limpio",
+            "classic": "Clásico",
+            "classic_description": "Estilo de notificación tradicional",
+            "modern": "Moderno",
+            "modern_description": "Diseño elegante y moderno"
+        },
+        "text_alignment": {
+            "left": "Izquierda",
+            "center": "Centro",
+            "right": "Derecha"
+        }
+    },
+    "progress": {
+        "types": {
+            "basic": "Básico",
+            "basic_description": "Diseño de barra clásico",
+            "classic": "Clásico",
+            "classic_description": "Vista tradicional",
+            "skew": "Inclinado",
+            "skew_description": "Diseño inclinado moderno"
+        }
+    },
+    "editor": {
+        "reset_scale": "Restablecer escala",
+        "reset_position": "Restablecer posición",
+        "scale": "Escala",
+        "health": "Salud",
+        "armour": "Armadura",
+        "hunger": "Hambre",
+        "thirst": "Sed",
+        "stress": "Estrés",
+        "voice": "Voz",
+        "oxygen": "Oxígeno",
+        "stamina": "Resistencia",
+        "show_all": "Mostrar Todo",
+        "hide_all": "Ocultar Todo",
+        "items": {
+            "hud": "HUD",
+            "notify": "Notificaciones",
+            "displayers": "Indicadores",
+            "progress": "Progreso",
+            "carhud": "HUD del Coche",
+            "theme": "Tema",
+            "component_visibility": "Visibilidad de Componentes",
+            "component_visibility_subtitle": "Ocultar/Mostrar Componentes"
+        },
+        "displayers": {
+            "title": "Indicadores",
+            "description": "Personaliza tus indicadores modificando su estilo y ajustando sus opciones de visualización según tus preferencias.",
+            "select_displayer_type": "Seleccionar tipo de indicador",
+            "displayer_type": "Tipo de Indicador"
+        },
+        "carhud": {
+            "minimap": {
+                "circle": "Círculo",
+                "square": "Cuadrado"
+            },
+            "select_type": "Seleccionar tipo",
+            "select_minimap": "Seleccionar minimapa"
+        },
+        "hud": {
+            "type": "Tipo",
+            "select_type": "Seleccionar tipo",
+            "alignment": "Alineación",
+            "select_alignment": "Seleccionar alineación"
+        },
+        "notify": {
+            "type": "Tipo",
+            "select_type": "Seleccionar tipo",
+            "text_alignment": "Alineación de Texto",
+            "select_text_alignment": "Seleccionar alineación de texto"
+        },
+        "progress": {
+            "type": "Tipo",
+            "select_type": "Seleccionar tipo"
+        }
+    }
+}

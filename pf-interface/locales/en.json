@@ -1,0 +1,210 @@
+{
+    "seatbelt": {
+        "title": "Seatbelt",
+        "on": "Seatbelt on",
+        "off": "Seatbelt off"
+    },
+    "welcome": {
+        "welcome_text": "Welcome",
+        "server_name": "Paradise Falls Roleplay",
+        "ready_to_configure": "Are you ready to configure the interface?",
+        "loading_editor": "Loading editor",
+        "loading_preview": "Loading Preview",
+        "previous": "Previous",
+        "next": "Next",
+        "go_to_preview": "Go to Preview",
+        "preview": {
+            "title": "Preview",
+            "return_esc": "ESC to return",
+            "enter_to_finish": "Enter to finish",
+            "dragging_mode": "Dragging mode active",
+            "modal": {
+                "title": "Do you want to finish the setup process?",
+                "description": "You can't return to the setup process after you finish it.",
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "game": {
+            "logo": {
+                "title": "Paradise Falls Roleplay",
+                "description": "Game is loading..."
+            }
+        },
+        "steps": {
+            "color": "Color Settings",
+            "interface": "Interface Settings",
+            "notification": "Notification Settings",
+            "progress": "Progress Bar",
+            "display": "Information Indicators",
+            "carhud": "Speedometer Configuration"
+        },
+        "interface": {
+            "title": "User Interface",
+            "description": "Customize your player statistics interface for better experience, such as health bar.",
+            "hud_type": "HUD Type"
+        },
+        "notification": {
+            "title": "Notification System",
+            "description": "Customize your notifications by modifying their style and adjusting their alignment to your preferences.",
+            "notification_style": "Notification Style",
+            "default": {
+                "header": "Information",
+                "text": "This is an information message."
+            }
+        },
+        "color": {
+            "title": "Color Selection",
+            "description": "Choose your preferred color"
+        },
+        "display": {
+            "title": "Information Indicators",
+            "description": "Customize your indicators, such as the player's job, assigned ID, and other relevant details.",
+            "select_displayer_type": "Select displayer type",
+            "displayer_type": "Displayer Type"
+        },
+        "progress": {
+            "title": "Progress Bar System",
+            "description": "Customize your progress bars by modifying their style and adjusting their display options to your preferences.",
+            "progress_style": "Progress Style",
+            "default": {
+                "text": "Loading...",
+                "value": 75,
+                "maxValue": 100
+            }
+        },
+        "carhud": {
+            "title": "Speedometer Configuration",
+            "description": "Customize your vehicle interface by adjusting its design, style and displayed information to your preferences.",
+            "speedometer_style": "Speedometer Style"
+        }
+    },
+    "hud": {
+        "types": {
+            "basic": "Basic",
+            "basic_description": "Classic basic design",
+            "hexagon": "Hexagon",
+            "hexagon_description": "Hexagon shaped HUD",
+            "modern": "Modern",
+            "modern_description": "Modern design",
+            "diamond": "Diamond",
+            "diamond_description": "Diamond shaped HUD",
+            "skew": "Skew",
+            "skew_description": "Skewed design",
+            "circle": "Circle",
+            "circle_description": "Circular HUD",
+            "icon_percent": "Icon + Percentage",
+            "icon_percent_description": "Icon and percentage display"
+        },
+        "alignments": {
+            "row": "Row",
+            "column": "Column"
+        }
+    },
+    "display": {
+        "id": "ID",
+        "online": "ONLINE",
+        "types": {
+            "basic": "Basic",
+            "basic_description": "Classic basic design",
+            "modern": "Modern",
+            "modern_description": "Modern design",
+            "skew": "Skew",
+            "skew_description": "Skewed design",
+            "modern2": "Modern 2",
+            "modern2_description": "Advanced modern design",
+            "modernskew": "Modern Skew",
+            "modernskew_description": "Modern skewed design"
+        }
+    },
+    "carhud": {
+        "types": {
+            "basic": "Basic",
+            "basic_description": "Classic digital design",
+            "modern": "Modern",
+            "modern_description": "Modern design",
+            "advanced": "Advanced",
+            "advanced_description": "Detailed gauge"
+        }
+    },
+    "notify": {
+        "types": {
+            "basic": "Basic",
+            "basic_description": "Simple and clean design",
+            "classic": "Classic",
+            "classic_description": "Traditional notification style",
+            "modern": "Modern",
+            "modern_description": "Stylish and modern design"
+        },
+        "text_alignment": {
+            "left": "Left",
+            "center": "Center",
+            "right": "Right"
+        }
+    },
+    "progress": {
+        "types": {
+            "basic": "Basic",
+            "basic_description": "Classic bar design",
+            "classic": "Classic",
+            "classic_description": "Traditional view",
+            "skew": "Skew",
+            "skew_description": "Modern skewed design"
+        }
+    },
+    "editor": {
+        "reset_scale": "Reset scale",
+        "reset_position": "Reset position",
+        "scale": "Scale",
+        "health": "Health",
+        "armour": "Armour",
+        "hunger": "Hunger",
+        "thirst": "Thirst",
+        "stress": "Stress",
+        "voice": "Voice",
+        "oxygen": "Oxygen",
+        "stamina": "Stamina",
+        "show_all": "Show All",
+        "hide_all": "Hide All",
+        "items": {
+            "hud": "Hud",
+            "notify": "Notifications",
+            "displayers": "Displayers",
+            "progress": "Progress",
+            "carhud": "Car Hud",
+            "theme": "Theme",
+            "component_visibility": "Component Visibility",
+            "component_visibility_subtitle": "Hide/Show Components"
+        },
+        "displayers": {
+            "title": "Displayers",
+            "description": "Customize your displayers by modifying their style and adjusting their display options to your preferences.",
+            "select_displayer_type": "Select displayer type",
+            "displayer_type": "Displayer Type"
+        },
+        "carhud": {
+            "minimap": {
+                "circle": "Circle",
+                "square": "Square"
+            },
+            "select_type": "Select type",
+            "select_minimap": "Select minimap"
+        },
+        "hud": {
+            "type": "Type",
+            "select_type": "Select type",
+            "alignment": "Alignment",
+            "select_alignment": "Select alignment"
+        },
+        "notify": {
+            "type": "Type",
+            "select_type": "Select type",
+            "text_alignment": "Text Alignment",
+            "select_text_alignment": "Select text alignment"
+        },
+        "progress": {
+            "type": "Type",
+            "select_type": "Select type"
+        }
+    }
+}
