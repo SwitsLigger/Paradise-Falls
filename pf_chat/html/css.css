@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#chat-container {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 682px;
+  height: 300px;
+}
+
+#message-list {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 10%);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.home-container2 {
+  width: fit-content;
+  max-width: 100%;
+  display: flex;
+  margin-top: 5px;
+  /* FIX: Change alignment to stretch to ensure all items have the same height */
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.home-text {
+  color: #f7f7f7;
+  padding: 7px 12px;
+  font-style: italic;
+  font-weight: 700;
+  flex-shrink: 0;
+  white-space: nowrap;
+  /* FIX: Use flex to center the text vertically within the stretched container */
+  display: flex;
+  align-items: center;
+}
+
+.home-text1 {
+  color: #f7f7f7;
+  padding: 7px;
+  margin-left: 2px;
+  font-weight: 300;
+  background-color: rgba(24, 24, 24, 0.72);
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+}
+
+#input-text {
+    outline: none;
+    background-color: rgba(24, 24, 24, 0.72);
+    position: relative;
+    z-index: 2;
+    color: #f7f7f7;
+    flex-grow: 1;
+    padding: 7px;
+    /* FIX: Ensure the text inside is vertically centered */
+    display: flex;
+    align-items: center;
+}
+
+#input-hint {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: transparent !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+    white-space: pre;
+    padding: 7px;
+    /* FIX: Ensure the text inside is vertically centered */
+    display: flex;
+    align-items: center;
+}
+
+
+.command-tag {
+    color: #f7f7f7;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 4px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* Styles for the special system message */
+.system-message-container {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px 12px;
+  background: linear-gradient(-45deg, #212121, #383838, #2b2b2b, #212121);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  box-sizing: border-box;
+}
+
+.system-message-text {
+  color: #f1f1f1;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+}
+
+
+#suggestions-container {
+    display: none;
+    position: absolute; 
+    width: 682px;
+    max-height: 150px;
+    overflow-y: auto;
+    border-radius: 0;
+    background: linear-gradient(-45deg, #212121, #383838, #2b2b2b, #212121);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    z-index: 100;
+}
+
+#suggestions-list {
+    padding: 5px;
+}
+
+.suggestion-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+}
+
+.suggestion-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.suggestion-name {
+    font-weight: 700;
+}
+
+.suggestion-help {
+    font-style: italic;
+    color: #b0b0b0;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.pop-in {
+  animation: pop-in 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes pop-in {
+  0% {
+    transform: translateY(20px) scale(0.95);
+    filter: blur(2px);
+    opacity: 0.0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    filter: blur(0px);
+    opacity: 1.0;
+  }
+}
+
+.slide-right {
+  animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-right {
+  0% { transform: translateX(-500px); opacity: 0.0; }
+  100% { transform: translateX(0); opacity: 1.0; }
+}
+
+.slide-left {
+  animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-left {
+  0% { transform: translateX(0); opacity: 1.0; }
+  100% { transform: translateX(-500px); opacity: 0.0; }
+}
